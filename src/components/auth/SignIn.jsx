@@ -248,7 +248,7 @@ const SignIn = () => {
 
         try {
             const response = await fetch(
-                'http://localhost:3010/login',
+                'https://meetix-backend-1.onrender.com/login',
                 {
                     method: 'POST',
                     headers: {

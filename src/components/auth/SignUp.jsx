@@ -612,7 +612,7 @@ const SignUp = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:3010/register",
+        "https://meetix-backend-1.onrender.com/register",
         {
           method: "POST",
           headers: {
