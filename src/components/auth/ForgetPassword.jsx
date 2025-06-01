@@ -112,7 +112,7 @@ const ForgotPassword = () => {
         setIsLoading(true);
         try {
             const response = await fetch(
-                'https://webinar-backend-sa37.onrender.com/api/v1/forget-password',
+                'https://webinar-backend-sa37.onrender.com/api/v1/users/forget-password',
                 {
                     method: 'PATCH',
                     headers: { 'Content-Type': 'application/json' },
