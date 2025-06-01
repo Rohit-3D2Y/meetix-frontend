@@ -11,7 +11,7 @@ import ConnectButton from "../../components/ConnectButton/ConnectButton";
 import io from 'socket.io-client';
 
 const LandingPageHeader = () => {
-    const socket = io('https://localhost:3010', {
+    const socket = io('https://meetix-backend-1.onrender.com', {
         transports: ['websocket'],
         secure: true,
         rejectUnauthorized: false,
