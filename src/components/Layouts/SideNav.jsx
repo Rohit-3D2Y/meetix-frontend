@@ -174,7 +174,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           <ul className="pl-6 mt-1 space-y-1">
             <li>
               <Link
-                to="https://localhost:3010"
+                to="https://meetix-backend-1.onrender.com"
                 className={`text-white flex items-center p-2 text-sm rounded-lg transition-colors ${location.pathname === '/meetings/new'
                     ? 'bg-teal-800 text-white font-medium'
                     : 'text-white hover:bg-[#2F4F29]'
