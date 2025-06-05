@@ -49,7 +49,7 @@ const LandingPageHeader = () => {
             navigate("/login");  // Redirect to login page
             return;
         }
-        window.location.href = "http://localhost:3010";  // Redirect to meeting URL
+        window.location.href = "https://meetix-backend-1.onrender.com";  // Redirect to meeting URL
     };
 
     // const handleJoinRoom = () => {
